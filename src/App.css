@@ -1,0 +1,15 @@
+#root {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  align-items: safe center;
+  justify-content: safe center;
+}
+
+@media screen and (max-width: 467px) {
+  #root {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
